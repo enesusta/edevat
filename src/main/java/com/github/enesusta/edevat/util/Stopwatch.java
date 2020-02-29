@@ -6,7 +6,7 @@ public class Stopwatch {
     private static long end;
     private static Stopwatch instance;
 
-    static Stopwatch start() {
+    public static Stopwatch start() {
         instance = new Stopwatch();
         start = System.currentTimeMillis();
         return instance;
