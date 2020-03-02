@@ -2,11 +2,11 @@ package com.github.enesusta.edevat.lists;
 
 import java.util.Iterator;
 
-public class DoublyLinkedListIterator<E> implements Iterator<E> {
+public class LinkedListIterator<E> implements Iterator<E> {
 
     private Node<E> head;
 
-    DoublyLinkedListIterator(final Node<E> head) {
+    LinkedListIterator(final Node<E> head) {
         this.head = head;
     }
 

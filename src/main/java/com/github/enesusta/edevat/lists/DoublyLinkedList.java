@@ -53,7 +53,7 @@ public class DoublyLinkedList<E> implements Iterable<E> {
 
     @Override
     public Iterator<E> iterator() {
-        return new DoublyLinkedListIterator<E>(head);
+        return new LinkedListIterator<E>(head);
     }
 
 }

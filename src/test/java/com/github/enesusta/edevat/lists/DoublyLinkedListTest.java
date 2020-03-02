@@ -15,7 +15,11 @@ class DoublyLinkedListTest {
         doublyLinkedList.insertHead(15);
         doublyLinkedList.insertTail(45);
         doublyLinkedList.insertTail(65);
-        doublyLinkedList.traverseHead();
+
+        for (Integer integer : doublyLinkedList) {
+            System.out.println("integer = " + integer);
+        }
+
 
     }
 
