@@ -6,6 +6,6 @@
 <dependency>
   <groupId>com.github.enesusta</groupId>
   <artifactId>edevat</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.3</version>
 </dependency>
 ```
