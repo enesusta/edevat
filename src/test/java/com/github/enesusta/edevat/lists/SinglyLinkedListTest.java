@@ -4,10 +4,10 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class SinglyLinkedListTest {
+public class SinglyLinkedListTest {
 
     @Test
-    void iteratorShouldWork() {
+    public void iteratorShouldWork() {
 
         SinglyLinkedList<Integer> integers = new SinglyLinkedList<>();
         integers.insertHead(15);
